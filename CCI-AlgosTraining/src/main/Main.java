@@ -144,8 +144,12 @@ class Main{
         }
         return array;
     }
-    public static void resize(int[] array){
-        
+    public static void resizeArray(int[] array, int newCapacity){
+        int[] temp = new int[newCapacity];
+        for(int i=0; i< array.length; i++){
+            temp[i] = array[i];
+        }
+        array = temp;
     }
 }
  
