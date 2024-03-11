@@ -144,5 +144,8 @@ class Main{
         }
         return array;
     }
+    public static void resize(int[] array){
+        
+    }
 }
  
